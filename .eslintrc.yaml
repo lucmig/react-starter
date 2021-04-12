@@ -1,0 +1,17 @@
+plugins:
+  - 'react'
+env:
+  es6: true
+  browser: true
+  mocha: true
+extends:
+  - 'eslint:recommended'
+  - 'plugin:react/recommended'
+rules:
+  react/display-name: off
+  react/prop-types: off
+  camelcase: off
+settings:
+  react:
+    version: 'detect'
+parser: '@babel/eslint-parser'
